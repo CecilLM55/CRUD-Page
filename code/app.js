@@ -10,7 +10,7 @@ addBook.addEventListener('click', () => {
   let pages = document.getElementById('txtPages').value;
   let status = document.getElementById('lstStatus').value;
 
-  if(title === "" || id === "" || author === "" || genre === "" || pages === "" || status === "") {
+  if(title.trim() === "" || id.trim() === "" || author.trim() === "" || genre.trim() === "" || pages.trim() === "" || status.trim() === "") {
     alert("Complete all the fields.");
     return;
   } else {
@@ -41,7 +41,7 @@ updateBook.addEventListener('click', () => {
     let genre = document.getElementById('lstGenre').value;
     let pages = document.getElementById('txtPages').value;
     let status = document.getElementById('lstStatus').value;
-    if(title === "" || id === "" || author === "" || genre === "" || pages === "" || status === "") {
+    if(title.trim() === "" || id.trim() === "" || author.trim() === "" || genre.trim() === "" || pages.trim() === "" || status.trim() === "") {
         alert("Complete all the fields.");
         return;
       } else {
