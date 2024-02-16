@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f7f6; /* Un tono suave de rosa */
+    color: #333; /* Color de texto principal */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #e75480; /* Rosa más vibrante para el título */
+}
+
+p {
+    text-align: center;
+    color: #666; /* Color de texto secundario */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el contenedor principal */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar contenido en el contenedor */
+}
+
+form {
+    margin-top: 20px;
+    text-align: left; /* Alinear texto del formulario a la izquierda */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e75480; /* Rosa vibrante para las etiquetas */
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: calc(100% - 22px); /* Restamos el padding y el borde */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    width: calc(100% - 22px); /* Restamos el padding y el borde */
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #e75480; /* Rosa vibrante para los botones */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #d6456b; /* Un tono más oscuro de rosa para el botón al pasar el ratón */
+}
+
+#divDetails {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fde8f0; /* Un tono más claro de rosa para resaltar el área de detalles */
+    border-radius: 5px;
+}
